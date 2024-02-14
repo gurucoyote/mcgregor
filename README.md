@@ -1,4 +1,4 @@
-MyEvents Command Line Application
+mcgregor Command Line Application
 =================================
 
 This simple command-line application is designed to process calendar events from `.ics` files within a specified directory. Here's what it does:
@@ -13,7 +13,7 @@ Usage
 To use the application, provide the path to the directory containing `.ics` files as an argument:
 
 ```sh
-myevents <path-to-directory>
+mcgregor <path-to-directory>
 ```
 
 The output will list the upcoming events in the following format:
@@ -27,14 +27,6 @@ Where:
 - `weekday` is the day of the week when the event starts.
 - `summary` is the title of the event.
 - `description` is a brief note about the event, truncated to 100 characters if necessary.
-
-Requirements
-------------
-The application requires the `github.com/arran4/golang-ical` package to parse `.ics` files. Make sure to have this dependency installed before running the application.
-
-Contributing
-------------
-Contributions to this project are welcome. Please feel free to submit issues or pull requests for improvements or bug fixes.
 
 License
 -------
